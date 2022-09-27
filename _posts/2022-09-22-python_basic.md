@@ -9,6 +9,9 @@ sidebar:
 search: true
 ---
 
+:octocat:코딩 테스트를 위한 파이썬 기초<br>
+<br>
+
 1. <span style="color:blue">자료형</span>
 
    수 자료형
