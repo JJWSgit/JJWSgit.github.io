@@ -23,7 +23,7 @@ search: true
 [Pandas-datareader](https://pandas-datareader.readthedocs.io/en/latest/index.html)<br>
 <br>
 
-:pushpin:참고사항<br>
+:pushpin: 참고사항<br>
 selenium 추천X<br>
 selenium의 원래 목적은 웹브라우저 테스트 도구<br>
 속도 오래걸리고 메모리를 많이 잡아먹는 단점이 있다.<br>
@@ -37,17 +37,48 @@ selenium의 원래 목적은 웹브라우저 테스트 도구<br>
 - 무리한 네트워크 요청<br>
 DDOS 공격으로 의심 받을 수 있어서 일반적으로 time.sleep() 사용<br>
 
+
 ## HTTP 통신과 HTML, CSS의 이해
 
-HTML<br>
-    - id    #<br>
-    - class .<br>
+- HTML<br>
+id    #<br>
+class .<br>
 table tag는 pandas로 불러올 수 있다.    * read_html(url) 네트워크 탭에서 URL 찾아보기<br>
-<br>
-CSS<br>
+a tag는 하이퍼링크<br>
+[상태코드](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C)<br>
+2xx(성공)<br>
+- CSS<br>
 
 
+## BeautifulSoup
 
+[Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)<br>
+데이터 수집 도구가 아니다. html 페이지를 파싱하는 데 쓴다.<br>
+html 페이지 구조화 -> 찾기 편하게
+- parameter 차이 확인<br>
+find_all(name) ~ select(selector)<br>
+find ~ select_one<br>
+
+## JSON(JavaScript Object Notation)
+속성(키)-값 쌍으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷<br>
+response.json()
+
+
+# API(Application Programming Interface)
+서로 다른 소프트웨어끼리 서비스를 제공하기 위한 사양<br>
+:pushpin: [네이버오픈API](https://developers.naver.com/docs/common/openapiguide/)
+
+
+# 기타 TIL
+- tqdm : 진행상황을 보여줌<br>
+trange = tqdm(range())<br>
+- 파생변수 만들기<br>
+- 컬럼 순서 변경하기 * df[cols] | cols = ['col1', 'col2',,]에 지정된 순서대로<br>
+- 과학적 기수법<br>
+- split(expand=True) * expand : 리스트 형식이 아닌 데이터 프레임 형식으로 반환<br>
+- datetime<br>
+today().strftime(format)<br>
+- read_csv() * dtype = {col : type}<br>
 <br>
 <br>
 
