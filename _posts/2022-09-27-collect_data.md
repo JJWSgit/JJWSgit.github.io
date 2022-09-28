@@ -80,6 +80,7 @@ trange = tqdm(range())<br>
 today().strftime(format)<br>
 - read_csv() * dtype = {col : type}<br>
 <br>
+<br>
 
 <details>
 <summary>:bookmark:출처</summary>
@@ -95,10 +96,9 @@ https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C<br>
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/<br>
 - JSON<br>
 https://ko.wikipedia.org/wiki/JSON<br>
-- 네이버 오픈 API
+- 네이버 오픈 API<br>
 https://developers.naver.com/docs/common/openapiguide/<br>
 </details>
-<br>
 <br>
 
 
