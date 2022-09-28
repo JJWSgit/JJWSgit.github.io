@@ -23,7 +23,7 @@ search: true
 [Pandas-datareader](https://pandas-datareader.readthedocs.io/en/latest/index.html)<br>
 <br>
 
-:pushpin: 참고사항<br>
+:pushpin:참고사항<br>
 selenium 추천X<br>
 selenium의 원래 목적은 웹브라우저 테스트 도구<br>
 속도 오래걸리고 메모리를 많이 잡아먹는 단점이 있다.<br>
@@ -61,27 +61,47 @@ find ~ select_one<br>
 
 ## JSON(JavaScript Object Notation)
 속성(키)-값 쌍으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷<br>
-response.json()
+response.json()<br>
 
 
 # API(Application Programming Interface)
 서로 다른 소프트웨어끼리 서비스를 제공하기 위한 사양<br>
-:pushpin: [네이버오픈API](https://developers.naver.com/docs/common/openapiguide/)
+:pushpin:[네이버오픈API](https://developers.naver.com/docs/common/openapiguide/)<br>
 
 
 # 기타 TIL
 - tqdm : 진행상황을 보여줌<br>
 trange = tqdm(range())<br>
 - 파생변수 만들기<br>
-- 컬럼 순서 변경하기 * df[cols] | cols = ['col1', 'col2',,]에 지정된 순서대로<br>
+- 컬럼 순서 변경하기 * df[] | cols = ['col1', 'col2',,]에 지정된 순서대로<br>
 - 과학적 기수법<br>
 - split(expand=True) * expand : 리스트 형식이 아닌 데이터 프레임 형식으로 반환<br>
 - datetime<br>
 today().strftime(format)<br>
 - read_csv() * dtype = {col : type}<br>
 <br>
+
+<details>
+<summary>:bookmark:출처</summary>
+
+- FinanceDataReader<br>
+https://github.com/FinanceData/FinanceDataReader<br>
+https://financedata.github.io/posts/finance-data-reader-users-guide.html<br>
+- PandasDataReader<br>
+https://pandas-datareader.readthedocs.io/en/latest/index.html<br>
+- HTTP 상태코드<br>
+https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C<br>
+- BeautifulSoup<br>
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/<br>
+- JSON<br>
+https://ko.wikipedia.org/wiki/JSON<br>
+- 네이버 오픈 API
+https://developers.naver.com/docs/common/openapiguide/<br>
+</details>
+<br>
 <br>
 
-**포스팅 공지** <br><br>
+
+:mortar_board:**포스팅 공지** <br><br>
 작성한 포스팅은 **멋쟁이 사자처럼 AI SCHOOl**의 수업 내용입니다.<br>
 {: .notice--success}
