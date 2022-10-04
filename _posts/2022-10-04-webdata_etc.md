@@ -28,7 +28,6 @@ referer<br>
 서버는 referer 참조함으로써 현재 표시하는 웹페이지가 어떤 웹페이지에서 요청되었는지 알 수 있음<br>
 [참고 사이트](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-HTTP-referer-%EB%9E%80)<br>
 
-get
 
 ## 비동기 통신
 
@@ -36,6 +35,7 @@ XHR(XMLHttpRequest)<br>
 필요한 부분만 서버에 요청하고 해당하는 내용만 받음<br>
 => 대역폭의 낭비를 줄이고 필요한 부분만 요청하는 상호작용<br>
 [참고 사이트](https://velog.io/@ldaehi0205/ajax-fetch-xhr-%EB%B9%84%EB%8F%99%EA%B8%B0%ED%86%B5%EC%8B%A0-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)<br>
+<br>
 
 # 웹 데이터 수집
 
@@ -52,7 +52,6 @@ XHR(XMLHttpRequest)<br>
 html tag에서 사용하는 css class 지정방식과 bs에서 사용하는 방법의 차이가 있다. 확인 필요<br>
 nth-child를 지원하지 않아 nth-of-type을 바꿔줘야함<br>
 <br>
-
 get_text() 는 메소드, text 는 attr 그 외에 차이가 안보임<br>
 
 
