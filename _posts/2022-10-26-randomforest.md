@@ -43,7 +43,7 @@ n_jobs=k : Parallelization, -1 일때는 사용가능한 모든 코어 사용)<b
 **검증**
 - Hold-out Validation<br>
 빠르게 평가가 가능<br>
-- Cross Validation
+- Cross Validation<br>
 **장점**<br>
 모든 데이터 셋을 평가에 활용할 수 있고, 평가에 사용되는 데이터셋의 편향을 막을 수 있다<br>
 => 데이터 부족으로 인한 underfitting 방지<br>
@@ -61,7 +61,7 @@ n_jobs=k : Parallelization, -1 일때는 사용가능한 모든 코어 사용)<b
 <br>
 
 # 오늘의 이모저모
-
+<br>
 기타사항<br>
 wandb : 튜닝을 하고 기록을 해주는 라이브러리<br>
 
